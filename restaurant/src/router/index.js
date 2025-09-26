@@ -24,8 +24,8 @@ const router = createRouter({
   component: Menu
 },
 {
-  name:'menuitems',
-  path:'/menuitems',
+  name:'menuitem',
+  path:'/menuitem',
   component: MenuItem
 },
 {
