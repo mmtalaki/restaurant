@@ -2,6 +2,7 @@
 import {ref} from 'vue'
 import {useRouter} from "vue-router";
 
+const router=useRouter();
 const showPassword=ref(false)
 
 //models
@@ -11,7 +12,7 @@ const password = ref(null)
 function login(){
     try {
         //get user data
-        let user = JSON.parse(localStorage.getItem("signUpData"));
+        let user=JSON.parse(localStorage.getItem("signUpData"));
         //check user details
         if(email.value = user.email && password.value == user.password){
             localStorage.setItem( "isLoggedIn", true );
