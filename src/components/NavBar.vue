@@ -13,6 +13,6 @@ const isLoggedIn=JSON.parse(localStorage.getItem("isLoggedIn"))
         <v-avatar to="/userprofile" v-if="isLoggedIn">
             <span class="text-h5 text-white">A</span>
         </v-avatar>
-        <v-btn to="/loggin" v-else>Login</v-btn>
+        <v-btn to="/login" v-else>Login</v-btn>
     </v-app-bar>
 </template>
