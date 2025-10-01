@@ -9,6 +9,7 @@ export const useMenuStore = defineStore('menu',  {
                 image: "/images/menu/baked-salmon-garnished.jpg",
                 price: 1250,
                 description: 'Baked salmon garnished with asparagus',
+                longDescription: '',
                 category: 'food',
             },
             1:{
@@ -16,6 +17,7 @@ export const useMenuStore = defineStore('menu',  {
                 image: "/images/menu/close-up-meal.jpg",
                 price: 1250,
                 description: 'main',
+                longDescription: '',
                 category: 'food',
             },
             2:{
@@ -23,6 +25,7 @@ export const useMenuStore = defineStore('menu',  {
                 image: "/images/menu/fried-shrimps.jpg",
                 price: 450,
                 description: 'appetizer',
+                longDescription: '',
                 category: 'food',
             },
             3:{
@@ -30,6 +33,7 @@ export const useMenuStore = defineStore('menu',  {
                 image: "/images/menu/grilled-beef-steak1.jpg",
                 price: 1000,
                 description: 'main',
+                longDescription: '',
                 category: 'food',
             },
             4:{
@@ -37,6 +41,7 @@ export const useMenuStore = defineStore('menu',  {
                 image: "/images/menu/grilled-beef-steak2.jpg",
                 price: 950,
                 description: 'main',
+                longDescription: '',
                 category: 'food',
             },
             5:{
@@ -44,6 +49,7 @@ export const useMenuStore = defineStore('menu',  {
                 image: "/images/menu/grilled-beef-steak3.jpg",
                 price: 1150,
                 description: 'main',
+                longDescription: '',
                 category: 'food',
             },
             6:{
@@ -51,6 +57,7 @@ export const useMenuStore = defineStore('menu',  {
                 image: "/images/menu/japanese-barbecue1.jpg",
                 price: 500,
                 description: 'main',
+                longDescription: '',
                 category: 'food',
             },
             7:{
@@ -58,6 +65,7 @@ export const useMenuStore = defineStore('menu',  {
                 image: "/images/menu/japanese-barbecue2.jpg",
                 price: 650,
                 description: 'main',
+                longDescription: '',
                 category: 'food',
             },
             8:{
@@ -65,6 +73,7 @@ export const useMenuStore = defineStore('menu',  {
                 image: "/images/menu/lobster-with-lemon.jpg",
                 price: 1350,
                 description: 'appetizer',
+                longDescription: '',
                 category: 'food',
             },
             9:{
@@ -72,6 +81,7 @@ export const useMenuStore = defineStore('menu',  {
                 image: "/images/menu/p-fish-steak.jpg",
                 price: 250,
                 description: 'main',
+                longDescription: '',
                 category: 'food',
             },
             10:{
@@ -79,6 +89,7 @@ export const useMenuStore = defineStore('menu',  {
                 image: "/images/menu/steak-grilled.jpg",
                 price: 250,
                 description: 'main',
+                longDescription: '',
                 category: 'food',
             }
         }
